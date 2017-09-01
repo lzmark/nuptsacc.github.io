@@ -1,0 +1,25 @@
+#daily{
+    padding: 8em 0 7em 0;
+    width: 100%;
+    table{
+        th{
+            width: 8%;
+            padding: 2em 1.5em 0 0;
+            vertical-align:top;
+            img{
+                height: 2em;
+                width: auto;
+            }
+        }
+        .th{padding: 2em 1.5em 0 3em;}
+        td{
+            width: 25%;
+            text-align: left;
+            vertical-align: text-top;
+            .Dailyheader{
+                font-size: 1.5em;
+                padding-bottom: 1.5em;
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+#index{
+    height: 100vh;
+    overflow: hidden;
+    .head{
+        margin: 20vh 0 0 0;
+        height: 52vh;
+        .font1{
+            font-size: 4em;
+            color: orange;
+            margin-bottom: 0;
+        }
+        .font2{
+            font-size: 5em;
+            color: #b9afaf;
+            margin: 0;
+            padding: 0 10%;
+            @media screen and (min-width:1920px){
+                padding: 6% 10% 0 10%;
+            }
+        }
+    }
+    .center{
+        margin: 0 10%;
+        height: 18vh;
+        .button{
+            background: rgba(221,221,221, 0.1);
+            border-radius: 0.5em;
+            height: 5vh;
+            width: 15%;
+            margin:0 5%;
+            border-width: thin;
+            a{
+                color: #fff;
+            }
+        }
+    }
+    .foot{
+        height: 10vh;
+        .indexfootimg{
+            background: url('../img/mouse.png');
+            background-repeat: repeat-y;
+            background-size: contain;
+            background-position: center;
+            height: 100%;
+            width: auto;
+        }
+    }
+}
