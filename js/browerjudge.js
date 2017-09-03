@@ -17,6 +17,6 @@
         }()
     }
     if(browser.versions.android||browser.versions.iPhone||browser.versions.iPad){
-        document.location.assign("/m")
+        document.location.assign("http://m.nupt-sacc.com")
     }
 }())
