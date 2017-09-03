@@ -16,7 +16,7 @@
             }
         }()
     }
-    if(browser.versions.android||browser.versions.ios||browser.versions.iPhone||browser.versions.iPad){
-        document.location.assign("/m")
-    }
+    //if(browser.versions.android||browser.versions.ios||browser.versions.iPhone||browser.versions.iPad){
+    //    document.location.assign("/m")
+    //}
 }())
