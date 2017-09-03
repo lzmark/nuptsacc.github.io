@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build-css": "node-sass-chokidar style-src -o style",
-    "start": "npm run build-css && node-sass-chokidar style-src -o style --watch --recursive"
+    "build": "node-sass-chokidar style-src -o style",
+    "start": "npm run build && node-sass-chokidar style-src -o style --watch --recursive"
   },
   "devDependencies": {
     "node-sass-chokidar": "^0.0.3"
