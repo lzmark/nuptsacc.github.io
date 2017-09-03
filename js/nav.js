@@ -56,8 +56,6 @@ let navload =() => {
 }
 window.onload = ()=>{
 	navload()
-	//When the page finishes loading , set visible
-	document.documentElement.style.visibility="visible"
 }
 window.onscroll = ()=>{
 	navscroll()
