@@ -239,51 +239,12 @@
       clear: both; }
 
 #gitpull {
-  text-align: center;
+  text-align: left;
   padding-bottom: 4em; }
-  #gitpull table {
-    width: 100%; }
-    #gitpull table .gitpull_title {
-      font-size: 2em; }
-      #gitpull table .gitpull_title th {
-        padding: 3em 0 2.5em 0; }
-    #gitpull table .gitpull_contant {
-      vertical-align: text-top; }
-      #gitpull table .gitpull_contant ._td {
-        width: 33%; }
-        #gitpull table .gitpull_contant ._td .th_ {
-          border: 0.5vh solid #dddddd;
-          width: 5vh;
-          height: 5vh;
-          border-radius: 10vh;
-          margin: 0 42%;
-          color: #dddddd;
-          font-size: 5vh; }
-        #gitpull table .gitpull_contant ._td .th_title {
-          margin: 5% 0;
-          font-size: 1.6em;
-          color: rgba(0, 0, 0, 0.6); }
-        #gitpull table .gitpull_contant ._td .demo {
-          padding: 2vh;
-          min-height: 20vh;
-          position: relative;
-          border: 0.5vh solid #dddddd;
-          margin-left: 5%;
-          width: 80%;
-          margin-bottom: 10vh; }
-          #gitpull table .gitpull_contant ._td .demo:after, #gitpull table .gitpull_contant ._td .demo:before {
-            border: solid transparent;
-            content: ' ';
-            left: 45%;
-            position: absolute; }
-          #gitpull table .gitpull_contant ._td .demo:after {
-            border-width: 0.9vh;
-            border-bottom-color: #fafafa;
-            top: -1.7vh; }
-          #gitpull table .gitpull_contant ._td .demo:before {
-            border-width: 0.9vh;
-            border-bottom-color: #dddddd;
-            top: -2.3vh; }
+  #gitpull .gitpull_title {
+    font-size: 4em;
+    text-align: center;
+    padding: 1em 0 1em 0; }
 
 footer #contact {
   padding: 5em 0 3em 0; }
