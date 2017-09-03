@@ -93,6 +93,7 @@
     transform: translateX(-20px) translateY(180px);
     opacity: 0; } }
   #hea_pc .nav_bar {
+    font-family: Arial;
     height: 100%;
     float: right;
     width: 75%; }
@@ -130,22 +131,33 @@
   #index .head {
     margin: 20vh 0 0 0;
     height: 52vh; }
-    #index .head .font1 {
-      font-size: 4em;
-      color: orange;
-      margin-bottom: 0; }
-    #index .head .font2 {
-      font-size: 5em;
-      color: #b9afaf;
-      margin: 0;
-      padding: 0 10%; }
-      @media screen and (min-width: 1920px) {
-        #index .head .font2 {
-          padding: 6% 10% 0 10%; } }
+    #index .head .saccname {
+      text-align: center;
+      font-family: Comic Sans MS;
+      color: #F5FFFA;
+      font-size: 40px;
+      font-weight: 6px; }
+    #index .head .wordone {
+      text-align: center;
+      color: #F8F8FF;
+      font-weight: 2px;
+      font-size: 25px;
+      font-family: Comic Sans MS;
+      opacity: 0.92;
+      transform: translateX(0px) translateY(100px); }
+    #index .head .wordtwo {
+      text-align: center;
+      color: #F8F8FF;
+      font-weight: 2px;
+      font-size: 20px;
+      font-family: Comic Sans MS;
+      opacity: 0.92;
+      transform: translateX(0px) translateY(130px); }
   #index .center {
     margin: 0 10%;
     height: 18vh; }
     #index .center .button {
+      font-family: Comic Sans MS;
       background: rgba(221, 221, 221, 0.1);
       border-radius: 0.5em;
       height: 5vh;
@@ -177,22 +189,31 @@
   #daily table .th {
     padding: 2em 1.5em 0 3em; }
   #daily table td {
+    font-family: Comic Sans MS;
+    color: grey;
     width: 25%;
     text-align: left;
     vertical-align: text-top; }
     #daily table td .Dailyheader {
-      font-size: 1.5em;
+      text-align: center;
+      color: dimgray;
+      font-weight: 2px;
+      font-size: 25px;
+      font-family: Comic Sans MS;
       padding-bottom: 1.5em; }
 
 #intro {
   padding-top: 4em;
   padding-bottom: 3em; }
-  #intro .head img {
-    height: 2em;
-    width: auto; }
-  #intro .head h3 {
-    margin: 3vh 0; }
+  #intro .head {
+    font-family: Comic Sans MS; }
+    #intro .head img {
+      height: 5em;
+      width: auto; }
+    #intro .head h3 {
+      margin: 3vh 0; }
   #intro .contant .detail {
+    font-family: Comic Sans MS;
     width: 100%; }
     #intro .contant .detail .detail_d {
       float: left;
@@ -200,12 +221,16 @@
       min-height: 12vh;
       padding: 1% 5%; }
       #intro .contant .detail .detail_d .detail_title {
+        color: black;
+        font-family: Comic Sans MS;
         width: 100%;
         font-size: 1.5em; }
       #intro .contant .detail .detail_d .detail_en {
+        color: goldenrod;
         width: 100%;
         font-size: 1.5em; }
       #intro .contant .detail .detail_d .detail_intro {
+        color: dimgray;
         padding-top: 1em;
         width: 100%; }
     #intro .contant .detail:after {
@@ -287,6 +312,7 @@ footer #contact {
         footer #contact .c_left table td a:hover {
           color: rgba(49, 69, 255, 0.9); }
   footer #contact .c_right {
+    color: blue;
     padding-left: 8%;
     padding-right: 25%;
     width: 17%;

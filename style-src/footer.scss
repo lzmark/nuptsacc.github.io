@@ -1,5 +1,6 @@
 footer{
   #contact{
+    
     padding: 5em 0 3em 0;
     &:after{
         content: ".";
@@ -31,6 +32,7 @@ footer{
       }
     }
     .c_right{
+      color:blue;
       padding-left: 8%;
       padding-right: 25%;
       width: 17%;
